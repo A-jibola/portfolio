@@ -227,12 +227,18 @@ code {
 }
 
 .bg-pp{
-  background-image: url('/images/projback2.png') !important;
+  background-image: url('../public/Images/projback2.PNG') !important;
   background-repeat: no-repeat;
   width: 100%
 }
+
+.ov-no{
+  overflow: hidden;
+  max-width: 100%;
+}
+
 .bg-pp2{
-  background-image: url('/images/projbackFlip.png') !important;
+  background-image: url('../public/Images/projbackFlip.PNG') !important;
   background-repeat: no-repeat;
   width: 100%
 }
