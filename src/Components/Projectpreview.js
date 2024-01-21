@@ -31,11 +31,13 @@ export default function Projectpreview({project}) {
                 {project.description}
               </Card.Text>
               : ''}
-            {project.tags.map((tag, index)=>{
+
+              {project.tags.map((tag, index)=>{
               return (
-                <Tagger key={index} tagTitle={tag} />
+                <span className='ov-no'><Tagger key={index} tagTitle={tag} /></span>
               )
             })}
+
           </Card.Body>
         </Card>
       </a>
