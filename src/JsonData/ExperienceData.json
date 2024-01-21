@@ -1,0 +1,48 @@
+{
+  "experiences": [
+    {
+      "timeSpent": "2022 - Present",
+      "company": "Microsoft - Software Engineer",
+      "tags": [
+        "Azure", "React", "Asp.Net C#", "Yaml", "Unit Testing"
+      ],
+      "keyPoints": [
+        "Researched, identified, and implemented new processes for infrastructure and internal systems resulting in a 37.5% increase in system performance", 
+        "Designed and executed a comprehensive plan for a new deployment pipeline process, resulting in a 30% decrease in bugs reported by client teams.", 
+        "Collaborated with cross-functional teams to analyze data on system usage patterns and user feedback, leading to the implementation of targeted improvements that increased overall user satisfaction by 25%"
+      ],
+      "id": 2233,
+      "active": true
+    },
+    {
+      "timeSpent": "2022 - 2022",
+      "company": "Sidmach Technologies - Software Engineer",
+      "tags": [
+        "C#", "Database Design", "Data Cleaning", "Asp.Net MVC", "Figma"
+      ],
+      "keyPoints": [
+        "Designed and implemented a comprenehensive plan for a new feature, resulting in accurate process implementation in 80% of project time", 
+        "Optimized Existing system processes to enhance functionaility and user experience, resulting in a complete resolution of the component's system errors  ", 
+        "Successfully Santized and Migrated over 1000 records of user data into new systems while prioritizing accuracy and efficiency"
+      ],
+      "id": 2234,
+      "active": false
+    },
+    {
+      "timeSpent": "2019 - 2019",
+      "company": "Sidmach Tech. - Software Engineer Intern",
+      "tags": [
+        "Figma", "Asp.Net MVC", "HTML", "Azure Custom Vision", "Azure Custom Voice", "AI Model Training"
+      ],
+      "keyPoints": [
+        "Trained an Azure Custom Voice API with self-made a large dataset of recorded and transcribed audio data of indigenous Nigerians",
+        "Developed and trained an Azure Custom Vision API used for recognizing objects in pictures through the use of categorized",
+        "Designed the User Interface for various applications using Figma", 
+        "Created Fields and Models for the backend design of ASP.NET Projects",
+        "Successfully Migrated over 700 records of user data into the existing system process while prioritizing accuracy and data safety" 
+      ],
+      "id": 2235,
+      "active": false
+    }
+  ]
+}

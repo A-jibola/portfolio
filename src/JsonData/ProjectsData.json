@@ -1,0 +1,275 @@
+{
+    "projects": [
+        {
+            "bannerImage": "/Images/Proj-Cover3.png",
+            "title": "Detty Reservations",
+            "category": "Software Engineering",
+            "tags": [
+                "Full-Stack", "MERN", "Payment Enabled"
+            ],
+            "description": "A service reservation system for clients planning vacations in Lagos, Nigeria.",
+            "problem": "Planning holidays, and even staycations can be quite tedious because it involves serveral aspects such as a place to stay, transportation, entertainment, food, etc",
+            "solution": "Design and Implement a Full stack web application in which users can create accounts and make reservations or various trusted services through the 'Detty Reservation' Service.",
+            "id": 2231,
+            "technologylist":[
+                {
+                    "title" : "front-end",
+                    "items" : ["HTML", "CSS", "Atie Design - (A CSS framework library created by me)", "React"]
+                },
+                {
+                    "title" : "Logic",
+                    "items" : ["Node JS", "Mongo DB and Mongoose - (for database and database management",
+                     "Axios - in other to access the endpoints from the front end", "ExpressJS", "Handlebars -  for creating templates for the receipt", "Paystack - for payment"]
+                }
+            ],
+            "features": [
+                "User Account Management (Create, Edit, and Delete)", "Login and Logout functionality, with token system",
+                "Reservation Payment with Paystack", "Save and Unsave Services",
+                "Automatically receipt creation"
+            ],
+            "images":[
+                "/Images/Proj.png", "/Images/Proj2.png", "/Images/Projj.png", "/Images/Projk.png"
+            ],
+            "notes": [
+                "Always try and learn from colleagues or friends who have used frameworks or libraries you are interested in using, it makes it faster",
+                "when it time to host your fun little full stack project online with netlify, don't. Please don't. Just use render and maneuver with your server.js to get it all deployed as one site (like how i do in this project)",
+                "It is easy to forget but axios post and axios get have different ways of passing parameters, if it is a post request without any body, you will need to put null so that it doesn't read your authorization headers as a body as say that your user is unauthorized"
+            ],
+            "links":[
+                {"name": "View Project", "link":"https://detty.onrender.com/"},
+                {"name": "View GitHub Repo", "link":"https://github.com/A-jibola/Detty"}
+            ]
+        },
+        {
+            "bannerImage": "/Images/Proj-Cover2.png",
+            "title": "Study Group",
+            "category": "Software Engineering",
+            "description": "A student-centered learning management web application.",
+            "problem": "Group-based learning creates an environment in which students can greatly benefit. However, simply placing students in groups and creating group-based assessment tasks will not necessarily result in this as there is risk of social loafing,  wherein an individual working in a group setting fails to contribute his or her fair share to a group effort as perceived by group members, but merit from other members’ work",
+            "solution": "A Student-Centered Group-Based Learning System which facilitate structuring and various forms of communication amongst small-sized student-formed group learning in order to promote group learning while reducing the incidence of social-loafing",
+            "tags": [
+                "Technical System Design", "Asp.Net", "WebRTC"
+            ],
+            "id": 2232,
+            "features": [
+                "Group Audio Calling", "Group Video Calling with screen sharing",
+                "Group Chat Messaging", "File Sharing System",
+                "Email Reminder System (using background processes)", 
+                "Registration and Sign in complete with email verification process", 
+                "User Account management", "Study Group Creation, and Admin priviledges management"
+                ],
+            "images":[
+                "/Images/browseGroups2.png", "/Images/browseGroups3.png", "/Images/videocall5.png",
+                "/Images/testmore.png", "/Images/downloaded.png", "/Images/unlockgroup.png",
+                "/Images/register4.png"
+            ],
+            "technologylist":[
+                {
+                    "title" : "Logic",
+                    "items" : ["Asp.Net Signal R - Signaling Prototcol (Chat)",
+                                "HangFire - Background Processes", 
+                                "OpenVidu Media Server which runs on Kurento Media Server - WebRTC Connection",
+                                "Docker CE - running the media server in command line",
+                                "SendGrid Email API - Sending Emails",
+                                "Microsoft SQL with Entity Framework - Database",
+                                "C#", "Asp.Net"]
+                },
+                {
+                    "title" : "Interface",
+                    "items" : ["HTML", "CSS", "BootStrap", "JavaScript", "JQuery"]
+                }
+            ],
+            "notes": [
+                "Breaking down a large body of work to achievable bits makes execution seem more plausible",
+                "Always have muliple copies of your work saved in retrievable places in case anything happens",
+                "We got an A!"
+            ],
+            "links":[
+                {"name": "Read Project Report", "link":"/finalYearProject.pdf"},
+                {"name": "View GitHub Repo", "link":"https://github.com/A-jibola/StudyGroup"}
+            ]
+        },
+        {
+            "bannerImage": "/Images/atifeDesign.png",
+            "title": "Atife Design Library",
+            "category": "Software Engineering",
+            "description": "Easy to use CSS Design Library.",
+            "problem": "There are certain design choices that are often made in personal projects by me, my siblings, friends and partner use. Though we use css and some design libraries, we often edit a lot to get some desired styles",
+            "solution": "A simple and easy to use design system for creating beautiful and responsive web applications",
+            "tags": [
+                "CSS", "Design System", "Reusable Library"
+            ],
+            "id": 2233,
+            "technologylist":[
+                {
+                    "title" : "Languages used",
+                    "items" : ["CSS", "JavaScript"]
+                }
+            ],
+            "features": [
+                "Hero", "Cards", "Buttons", "Details", "Tags", "Margins", "Borders",
+                "Text Styling", "Layout: Rows and Columns", "Padding",
+                "Navbar", "Sidebar", "Colors", "Forms", "Popups"
+            ],
+            "notes": [
+                "When working with plain javascript in react, sometimes the addeventlistener function may not work as expected. Waiting for the page to finish loading first fixed that for me ",
+                "Safari, especially on the Iphones used to test the design system, doesn't actually run the 'onload' function like how other browsers do. Safari says that it completes the action before the page and attached scripts are fully loaded so this could solve some issues. A timeout function could help. I used 0.1ms - but will be testing more"
+            ],
+            "links":[
+                {"name": "View Documentation", "link":"https://atife-design.netlify.app/"}
+            ]
+        },
+        {
+            "bannerImage": "/Images/jobboard.png",
+            "title": "Hire Harmony",
+            "category": "Product Design",
+            "description": "Responsive Web Design for Job boarding application",
+            "problem": "Remote and Hybrid jobs are getting increasingly popular. However, the application process, sifting through legitimate job applications is becoming increasingly difficult",
+            "solution": "Design a Responsive Web Application for job seekers to easily find relevant job opportunities. The secondary goal is to provide an efficient platform for employers to review resumes and find their ideal candidate",
+            "tags": [
+                "Prototyping", "Micro Interactions", "Figma"
+            ],
+            "id": 2234,
+            "notes": [
+                "Users like to know where they're going, how far they've gone and how much more they need to go",
+                "When it's not explicitly obvious, ask the users before taking them somewhere or introducing a new process to them"
+            ],
+            "UserReseachSummary": "The User research was conducted orally, Responses from Participants were recorded with full consent and later analyzed to derive the User Persona, and guide the empathize stage. The User research was conducted on a Job seekers as well and employers to fully understand their experience and challenges. Job seekers expressed the need for relevant information in job listing like salary, and restrictions. They also mentioned management of multiple credentials and information like multiple resumes, and struggles they face in finding relevant recommendations. Some Employers stated that they wanted to be able to sort through possible applicants and view their credentials, while some others wanted to be able to post jobs and get possible leads and manage some aspect of that communication easily",
+            "userPersonas":[
+                "jb-persona1.png",
+                "jb-persona2.png"
+            ],
+            "userJourneyMaps":[
+                "jb-userjo.png",
+                "jb-userjo2.png"
+            ],
+            "competitiveAudit":{
+                "intro":"The goal was to analyze mostly direct competitors and look through how well they conveyed their information and simplified the process. Each website had multiple pages run through an accessibility checker to check on how improvements could be made",
+                "image": "jb-comp.png"
+            },
+            "designSystem":{
+                "intro":"The design system was created following the design constrain of the client that requested something simple that would be based off on the theme colors of blue and white",
+                "image": "jb-design.png"
+            },
+            "usabilityInsights":[
+                "Users Should know the steps they are going to take when applying for a job",
+                "Users should be given a notice when an action requires a Login before being sent to the Login page",
+                "Users' Profile should not center around editing bio-data but rather, accessing their details and information relevant to them"
+            ],
+            "designChanges":[
+                "jb-change1.png", "jb-change2.png"
+            ],
+            "paperWireframes":"jb-paper.png",
+            "lowFi":["jb-lowfi.png", "jb-lowfi2.png"],
+            "hiFI":["jobboard.png"],
+            "links":[
+                {"name": "View Desktop Prototype", "link":"https://www.figma.com/proto/FKANlK5Z73z6U5FchtO39E/Job-Board-Desktop-MockUp-and-Prototypr?type=design&node-id=235-3805&t=Hqpmb695tjoX9lJ2-8&scaling=scale-down-width&page-id=235%3A3804&starting-point-node-id=235%3A3805&hide-ui=1"},
+                {"name": "View Mobile (On Desktop)", "link":"https://www.figma.com/proto/vNz8gea0zTiDf322p7LoeN/Job-Board-Mobile-MockUp-and-Prototype?type=design&node-id=330-1708&t=Ryz81HKPCWzTZtaC-8&scaling=min-zoom&page-id=330%3A1657&starting-point-node-id=330%3A1708&hide-ui=1"},
+                {"name": "View Mobile (On Mobile)", "link":"https://www.figma.com/proto/vNz8gea0zTiDf322p7LoeN/Job-Board-Mobile-MockUp-and-Prototype?type=design&node-id=456-4886&t=Ub5wBrtfoWPnwaBY-8&scaling=min-zoom&page-id=456%3A4835&starting-point-node-id=456%3A4886&hide-ui=1"}
+            ]
+        },
+        {
+            "bannerImage": "/Images/realestate.png",
+            "title": "Finders Realties",
+            "category": "Product Design",
+            "description": "Responsive Design for Real Estate web application",
+            "problem": "Finders Realities is an established Reality company without a website, they have other active pages but lately have been finding it difficult responding to clients one-on-one",
+            "solution": "Design a Responsive Web application, capable and suitable for providing adequate information to new or existing clients, and guide them through the process of booking or acquiring a property from Finders Realties",
+            "tags": [
+                "Figma", "User Research", "Wireframing"
+            ],
+            "id": 2235,
+            "painPoints":[
+                "Most of Information They see on Real Estate Web applications are outdated",
+                "They don’t get quick replies, or may not get any replies at all",
+                "Filtering and looking through properties can be sometimes difficult or overly complex"
+            ],
+            "notes": [
+                "When asking from input or information, always be explicit about what you require and how you require it",
+                "Don't let navigation tools of an application distract from the actual application. Simply making it easy to access and understand will be enough to aid smooth user navigation"
+            ],
+            "UserReseachSummary": "The User research was conducted orally, Responses from Participants were recorded with full consent and later analyzed to derive the User Persona, and guide the empathize stage. The User research was conducted on a Job seekers as well and employers to fully understand their experience and challenges. Job seekers expressed the need for relevant information in job listing like salary, and restrictions. They also mentioned management of multiple credentials and information like multiple resumes, and struggles they face in finding relevant recommendations. Some Employers stated that they wanted to be able to sort through possible applicants and view their credentials, while some others wanted to be able to post jobs and get possible leads and manage some aspect of that communication easily",
+            "userPersonas":[
+                "re-persona1.png",
+                "re-persona2.png"
+            ],
+            "userJourneyMaps":[
+                "re-userjo.png"
+            ],
+            "competitiveAudit":{
+                "intro":"The goal was to analyze mostly direct competitors and look through how well they conveyed their information and simplified the process. Each website had multiple pages run through an accessibility checker to check on how improvements could be made",
+                "image": "re-comp.png"
+            },
+            "designSystem":{
+                "intro":"The design system revolved around the theme color of Finders' Realities which is a specific shade of green. I made sure to incorporate this color along with other shades in a mode that was completely accessibly up to 3As, and also avoided any glare by not using plain white as the background color",
+                "image": "re-design.png"
+            },
+            "usabilityInsights":[
+                "The Menu size and design, especially on the Mobile view should be reduced to not distract users from focusing on the page",
+                "Input areas should be explicitly specific on the kind of data that tehy require",
+                "Text size and spacing should be manipulated even more to increase users' interest in reading the information",
+                "Real Estate Terms with meanings available should be more obvious and emphasized"
+            ],
+            "designChanges":[
+                "re-change.png"
+            ],
+            "paperWireframes":"re-paper.png",
+            "lowFi":["re-lowfi.png", "re-lowfi2.png"],
+            "hiFI":["realestate.png"],
+            "links":[
+                {"name": "View Desktop Prototype", "link":"https://www.figma.com/proto/0X4enfaPTlWEBHl0jEvLtS/REAL-Estate-mockups-and-prototype?type=design&node-id=454-15619&t=xiV4gKbD50UMLju3-8&scaling=scale-down-width&page-id=424%3A4318&starting-point-node-id=454%3A15619&hide-ui=1"},
+                {"name": "View Mobile Prototype", "link":"https://www.figma.com/proto/PxOt92dXUPhtHS2aDxLdsc/REAL-Estate-Mobile-Mock-Up?type=design&node-id=501-6810&t=4C64Ax5MAyrwVbTz-8&scaling=scale-down-width&page-id=501%3A6801&starting-point-node-id=501%3A6810&hide-ui=1"}
+            ]
+        },
+        {
+            "bannerImage": "/Images/pastery.png",
+            "title": "Pastery Palette",
+            "category": "Product Design",
+            "tags": [
+                "Figma", "Design System", "Responsive Design"
+            ],
+            "description": "Responsive Design for an online pastery shop",
+            "problem": "The Pastery Palette currently handles orders through their whatsapp number and instagram messages but since they went viral for their lovely treats and aesthetic, it is difficult to keep up with orders 24/7",
+            "solution": "To Design a fun, responsive and colorful web application that can help simplify the order process and possibly attract even more customers",
+            "id": 2236,
+            "notes": [
+                "When next taking a very visual project, use clear and attractive pictures and colors",
+                "Don't unnecessarily change a popular terminology or positioning for an essential part of an application, use systems and names that are already popular and easy to understand",
+                "Even in a colorful project, know when and what to keep plain"
+            ],
+            "UserReseachSummary": "The User research was conducted on people who often order food, as well as baked goods. From the research, it was understood that the biggest issue that those customers face is a lack of readily available information and a bad user experience. They would like to know up front the policies, the prices, delivery times and processes as well as be able to make payments and move smoothly through the process. Another need highlighted is the need for attractive and beautiful representation of the goods, such as good images and videos to help the decision process",
+            "userPersonas":[
+                "pp-persona1.png",
+                "pp-persona2.png"
+            ],
+            "userJourneyMaps":[
+                "pp-userjo.png",
+                "pp-userjo2.png"
+            ],
+            "competitiveAudit":{
+                "intro":"The goal was to analyze mostly direct competitors and look through how well they conveyed their information and simplified the process. Each website had multiple pages run through an accessibility checker to check on how improvements could be made",
+                "image": "pp-comp.png"
+            },
+            "designSystem":{
+                "intro":"The design system revolved around the theme color of Pastery Palette which is a specific shade of purple. I made sure to incorporate this color along with other shades in a mode that was completely accessibly up to 3As, and also avoided any glare by not using plain white as the background color",
+                "image": "pp-design.png"
+            },
+            "usabilityInsights":[
+                "The name of menu categories should be visible at all times, even when they are not being hovered over",
+                "The Login Link in the Navbar should have clear indication of when a user is signed in and not",
+                "Users should be also able to filter by Menu Category in the shop",
+                "Users' order information should be easy to view and sorted to avoid long scrolling process"
+            ],
+            "designChanges":[
+                "pp-change1.png", "pp-change2.png"
+            ],
+            "paperWireframes":"pp-paper.png",
+            "lowFi":["pp-lowfi1.png", "pp-lowfi2.png"],
+            "hiFI":["pastery.png"],
+            "links":[
+                {"name": "View Desktop Prototype", "link":"https://www.figma.com/proto/qtunC2GYQt4QBxL3KKAXPr/Pastery-Palette-DESKTOP?type=design&node-id=291-1942&t=Lss8LzJ5JoOENh7Q-8&scaling=scale-down-width&page-id=291%3A1895&starting-point-node-id=291%3A1942&hide-ui=1"},
+                {"name": "View Mobile Prototype", "link":"https://www.figma.com/proto/yrkChWBhToMbDXO6G633oA/Pastery-Palette-MOBILE?type=design&node-id=142-1612&t=HwPOmmFEYXTqKnlX-8&scaling=scale-down-width&page-id=142%3A1526&starting-point-node-id=142%3A1612&hide-ui=1"}
+            ]
+        }
+    ]
+}

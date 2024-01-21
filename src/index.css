@@ -1,0 +1,312 @@
+body {
+  background: #121112 !important;
+  color: #F3F3F3 !important;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-color{
+  color: #F3F3F3 !important;
+}
+
+.text-justify{
+  text-align: justify !important;
+}
+
+.toLight:hover{
+  color: #F3F3F3 !important;
+}
+
+.form-bg{
+  background-color: rgba(245, 245, 245, 0.95) !important;
+}
+
+.bg-j-light{
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.darktoGrey:hover{
+  background-color: rgba(245, 245, 245, 0.2) !important;
+}
+
+#highlightCat {
+  color: #F3F3F3 !important;
+  font-weight: 700;
+  line-height: 3.75rem;
+  text-decoration-line: underline;
+}
+
+.footer-margin-top {
+  margin-top: 6rem;
+}
+
+
+.grey-smBold{
+  color: rgba(243, 243, 243, 0.6);
+  font-weight: 600;
+}
+
+.pinkdot{
+  color: hotpink;
+}
+
+.bg-pink{
+  background-color: hotpink;
+}
+
+.bg-purple{
+  background-color: purple;
+}
+
+.bg-green{
+  background-color: #104938;
+}
+
+.tagger-style {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.bg-trans-light{
+  background-color: black;
+  width: 100%;
+  opacity: 80%;
+}
+
+.buttonStyle{
+  color: #FEFEFE !important;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.20) !important;
+  background: black !important;
+  box-shadow: 2px 3px 2px 1px rgba(0, 0, 0, 0.10);
+  width: 18.4375rem !important;
+  margin: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.size{
+  height: 35rem !important;
+  font-size: 1.3rem;
+}
+
+.mh-450{
+  max-height: 450px !important;
+}
+
+.mh-300{
+  max-height: 300px !important;
+}
+
+@media screen and (min-width: 400px) {
+  .wSizing {
+    max-width: 85%;
+  }
+  .next-project{
+    display: none;
+  }
+
+}
+.modalStyle{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.modal-content{
+  background-color: #121112 !important;
+  text-align: center;
+  color: white !important;
+}
+
+#clickGame{
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+.whatIdoSub{
+  letter-spacing: 0.12rem;
+}
+
+.idoWidth{
+  max-width: 40rem;
+  line-height: 2.5rem;
+}
+
+.lh-3{
+  line-height: 2.5rem;
+  font-weight: 500;
+}
+
+.green-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #3f5022;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.color-group{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.color-group-popup{
+  position: absolute;
+  bottom: 1.8rem;
+  right: 1rem;
+}
+
+.emph1{
+  letter-spacing: 0.12rem;
+  text-decoration-line: underline;
+  font-weight: 600;
+}
+
+.gradient1{
+  background: linear-gradient(180deg, rgba(18, 17, 18, 0.80) 20.31%, rgba(136, 134, 136, 0.44) 100%);
+}
+
+.gradient2{
+  background: linear-gradient(180deg, rgba(136, 134, 136, 0.44) 0%, rgba(18, 17, 18, 0.80) 75.52%);
+}
+
+.share-size{
+  width: 1rem;
+  height: 1rem;
+}
+
+.color-circle {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.color-circle2 {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.position-relative{
+  position: relative ;
+}
+
+.unselectable{
+  -webkit-user-select: none;
+  -ms-user-select: none; 
+  user-select: none; 
+}
+
+@media screen and (min-width: 1000px) {
+  .wSizing {
+    max-width: 50%;
+  }
+  .next-project{
+    display: block;
+    position: fixed;
+    bottom: 0.5rem;
+    right: 1rem;
+  }
+}
+
+.door-overlay{
+  z-index: 101 !important;
+  position: absolute !important;
+  background-color:  rgba(0, 0, 0, 0.2) !important;;
+
+}
+
+.bg-pp{
+  background-image: url('/images/projback2.png') !important;
+  background-repeat: no-repeat;
+  width: 100%
+}
+.bg-pp2{
+  background-image: url('/images/projbackFlip.png') !important;
+  background-repeat: no-repeat;
+  width: 100%
+}
+
+.doorpost{
+  z-index: 99 !important;
+}
+
+.overLayDoor{
+  z-index: 100 !important;
+  position: absolute !important;
+  position: fixed;
+}
+
+@media screen and (min-width: 300px) {
+  .goLeft{
+    position: relative;
+    animation-name: slideup;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+  }
+  .goRight{
+    position: relative;
+    animation-name: slidedown;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes slideup{
+    0%   {left:0px; top:0px;}
+    100% {left:-0px; top:-50vh;}
+  }
+  @keyframes slidedown{
+    0%   {left:0px; bottom:0px;}
+    100% {left:-0px; bottom:-50vh;}
+  }
+  .image-width{
+    width: 100% !important;
+  }
+  .door{
+    width: 50% !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .goLeft{
+    position: relative;
+    animation-name: slideleft;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+  }
+  .goRight{
+    position: relative;
+    animation-name: slideright;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes slideleft{
+    0%   {left:0px; top:0px;}
+    100% {left:-50vw; top:0px;}
+  }
+  @keyframes slideright{
+    0%   {right:0px; top:0px;}
+    100% {right:-50vw; top:0px;}
+  }
+
+  .image-width{
+    width: 50% !important;
+  }
+
+  .door{
+    width: 100% !important;
+  }
+}
