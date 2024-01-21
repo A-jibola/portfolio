@@ -4,6 +4,6 @@ import Badge from 'react-bootstrap/Badge';
 
 export default function Tagger({tagTitle}) {
   return (
-    <Badge pill bg="light" text="dark" className='p-2 m-1 tagger-style'> {tagTitle} </Badge>
+    <Badge pill bg="light" text="dark" className='p-2 m-1 ov-no tagger-style'> {tagTitle} </Badge>
   )
 }
