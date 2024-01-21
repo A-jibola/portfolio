@@ -8,7 +8,7 @@ export default function About() {
   const [resp, setResp] = useState("")
 
   const SendFormEmail = () =>{
-    emailjs.sendForm(process.env.MAIL1, process.env.MAIL2 , form.current, process.env.MAIL3)
+    emailjs.sendForm(process.env.REACT_APP_MAIL1, process.env.REACT_APP_MAIL2 , form.current, process.env.REACT_APP_MAIL3)
       .then((result) => {
         setResp("Mail Sent Successfully!");
         document.getElementById('resp').classList.add('alert-success');
