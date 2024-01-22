@@ -7,10 +7,10 @@ import LinkStyle from './LinkStyle';
 export default function Header() { 
   return (
     <>
-      <Navbar id="theNav" expand="lg" className="mb-2">
+      <Navbar id="theNav" expand="lg" className="mb-2 navbar-dark">
         <Container>
           <Navbar.Brand href="/" className='fw-semibold font-color'>AJIBOLA</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" className='text-light'/>
+          <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link className='font-color' href="/"> <LinkStyle linkName={'/'}/> Home</Nav.Link>
