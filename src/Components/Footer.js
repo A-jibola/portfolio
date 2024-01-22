@@ -23,7 +23,7 @@ export default function Footer() {
           isAbout ? "" :
           <div  className='border-top border-dark py-5 mx-auto'>
             <h4 className='p-2'> Let's Connect!</h4>
-            <a href="https://www.linkedin.com/in/ajibolaokesola/" className='mx-5 btn btn-dark'>LinkedIn</a>
+            <a href="https://www.linkedin.com/in/ajibolaokesola/" className='mx-5 btn mb-1 btn-dark'>LinkedIn</a>
             <a href='/about#SendMail' className='mx-5 btn btn-dark'>Send Me A Mail</a> 
           </div>
         }
