@@ -125,6 +125,7 @@ code {
 #clickGame{
   overflow-x: hidden !important;
   overflow-y: hidden !important;
+  cursor: crosshair;
 }
 
 .whatIdoSub{
