@@ -10,7 +10,7 @@ export default function Header() {
       <Navbar id="theNav" expand="lg" className="mb-2">
         <Container>
           <Navbar.Brand href="/" className='fw-semibold font-color'>AJIBOLA</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className='text-light'/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link className='font-color' href="/"> <LinkStyle linkName={'/'}/> Home</Nav.Link>
