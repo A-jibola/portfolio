@@ -229,7 +229,7 @@ code {
 
 .bg-pp{
   background-image: url('../public/Images/projback2.PNG') !important;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   width: 100%
 }
 
@@ -240,7 +240,7 @@ code {
 
 .bg-pp2{
   background-image: url('../public/Images/projbackFlip.PNG') !important;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   width: 100%
 }
 
