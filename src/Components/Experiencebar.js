@@ -33,8 +33,8 @@ export default function Experiencebar({experience}) {
             <div className='p-2 mb-2 bg-j-light border rounded d-flex justify-content-between'>
                 <span className='px-4'> {experience.company} </span>
                 <div> {experience.timeSpent}
-                    <span role="button" id={'buttonDown' + experience.id} className='px-4' onClick={buttonClick}> <IoCaretDownCircleOutline /> </span>
-                    <span role="button" id={'buttonUp' + experience.id} className='px-4 d-none' onClick={buttonClick}> <IoCaretUpCircleOutline /> </span>
+                    <span role="button" id={'buttonDown' + experience.id} className='px-4' onClick={buttonClick}> <IoCaretDownCircleOutline onClick={buttonClick} /> </span>
+                    <span role="button" id={'buttonUp' + experience.id} className='px-4 d-none' onClick={buttonClick}> <IoCaretUpCircleOutline onClick={buttonClick} /> </span>
                 </div>
             </div>
             <div id={'content' + experience.id} className='p-4 d-none mb-4 border rounded'>
